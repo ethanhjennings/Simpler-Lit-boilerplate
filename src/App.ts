@@ -23,8 +23,8 @@ import './MindBlow.js';
     }
   `;
 
-	@property()
-	text = 'Lit Typescript boilerplate!';
+  @property()
+  text = 'Lit Typescript boilerplate!';
 
    override render() {
 	 return html`
