@@ -1,4 +1,4 @@
-# Simpler Lit boilerplate (Typescript)
+# Simple(r) Lit boilerplate (Typescript)
 
 I created this Lit boilerplate project for myself so I could have an easy-to-understand build starting off point for Lit with Typescript. It has less dependencies than the official example project (https://github.com/lit/lit-element-starter-ts/tree/lit-element-2.x) but also less creature comforts. The build still relies on node and the modules `tsc` for compiling, `tsc-watch` for watching code changes, and `rollup` bundling.
 
