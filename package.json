@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-image": "^3.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@web/rollup-plugin-html": "^1.11.0",
+    "lit": "^2.4.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-minify-html-literals": "^1.2.6",
+    "rollup-plugin-summary": "^1.4.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "npm run cleanup && tsc && rollup -c rollup.config.js",
+    "build:watch": "npm run cleanup && tsc-watch --onSuccess \"rollup -c rollup.config.js\" --onFailure \"rimraf build\"",
+    "cleanup": "rimraf compiled-ts && rimraf build"
+  }
+}

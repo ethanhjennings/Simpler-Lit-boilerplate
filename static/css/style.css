@@ -1,0 +1,6 @@
+/* Global CSS. Use css inside components when you can. */
+/* TODO: Fix file-watching not working or find alternative place for global CSS */
+
+body {
+    background-color: #1d1d1d;
+}
